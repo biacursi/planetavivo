@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6">
         <a href="#top" className="flex items-center gap-3" onClick={() => setMenuOpen(false)}>
-          <img src="/logo.png" alt="Planeta Vivo" className="h-12 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Planeta Vivo" className="h-12 w-auto" />
           <span
             className={`font-display text-lg font-bold tracking-tight transition-colors ${
               dark ? 'text-indigo-dark' : 'text-white'

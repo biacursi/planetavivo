@@ -28,7 +28,7 @@ export default function Footer() {
         >
           <motion.div variants={revealUp}>
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Planeta Vivo" className="h-14 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Planeta Vivo" className="h-14 w-auto" />
               <span className="font-display text-xl font-bold">PLANETA VIVO</span>
             </div>
             <p className="mt-6 max-w-sm font-body leading-relaxed text-white/60">
