@@ -1,0 +1,24 @@
+<svg viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg">
+  <!-- trunk -->
+  <rect x="46" y="30" width="8" height="20" fill="#1F5C3A"/>
+  <!-- canopy -->
+  <g fill="#2E7D4F">
+    <circle cx="50" cy="14" r="13"/>
+    <circle cx="36" cy="22" r="11"/>
+    <circle cx="64" cy="22" r="11"/>
+    <circle cx="30" cy="32" r="8"/>
+    <circle cx="70" cy="32" r="8"/>
+    <circle cx="50" cy="30" r="12"/>
+  </g>
+  <!-- ring -->
+  <circle cx="50" cy="72" r="34" fill="none" stroke="#2E2A6B" stroke-width="9"/>
+  <!-- globe -->
+  <circle cx="50" cy="72" r="26" fill="#ffffff"/>
+  <g fill="#2E7D4F">
+    <path d="M38 54c-4 3-7 8-7 13 0 2 1 4 3 5 3-4 6-6 10-7-1-4-3-8-6-11z"/>
+    <path d="M60 50c6 2 11 7 13 13-5 1-9 0-13-2-2-4-2-8 0-11z"/>
+    <path d="M34 74c-2 5-2 10 1 15 4-1 8-3 10-7-3-3-7-6-11-8z"/>
+    <path d="M56 68c5-1 10 0 14 3-2 5-6 8-11 10-3-4-4-9-3-13z"/>
+    <path d="M46 84c4 4 10 6 15 5-1-5-4-9-8-11-3 2-5 4-7 6z"/>
+  </g>
+</svg>
