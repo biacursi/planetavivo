@@ -22,11 +22,6 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-gradient-to-b from-forest-dark/55 via-forest-dark/25 to-forest-dark/65" />
 
-      {/* Extra opaque strip at the very top: hides the YouTube player's native
-          title/channel overlay that briefly flashes on autoplay, especially
-          right after a page refresh on mobile. */}
-      <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-forest-dark/95 via-forest-dark/60 to-transparent sm:h-36" />
-
       <motion.div
         style={{ opacity }}
         className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center"
