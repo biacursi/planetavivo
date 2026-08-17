@@ -85,7 +85,7 @@ export default function Footer() {
       </div>
 
       <div className="select-none overflow-hidden border-t border-white/10 py-6">
-        <div className="whitespace-nowrap text-center font-display font-extrabold leading-none tracking-tight text-white/5 text-[clamp(3.5rem,16vw,13rem)]">
+        <div className="whitespace-nowrap text-center font-display font-extrabold leading-none tracking-tight text-white/5 text-[clamp(1.75rem,10vw,13rem)]">
           PLANETA VIVO
         </div>
       </div>

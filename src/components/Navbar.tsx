@@ -16,8 +16,20 @@ export default function Navbar() {
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
     onScroll()
+    // Some mobile browsers restore the scroll position asynchronously after a
+    // refresh, so the check above can run before that happens. Re-checking on
+    // the next frame (and once more shortly after) keeps the navbar in sync
+    // with the real scroll position instead of getting stuck transparent.
+    const raf = requestAnimationFrame(onScroll)
+    const timeout = window.setTimeout(onScroll, 300)
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
+    window.addEventListener('pageshow', onScroll)
+    return () => {
+      cancelAnimationFrame(raf)
+      window.clearTimeout(timeout)
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('pageshow', onScroll)
+    }
   }, [])
 
   const dark = scrolled || menuOpen
