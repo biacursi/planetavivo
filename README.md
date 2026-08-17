@@ -17,7 +17,7 @@ O site apresenta a história da ONG, destaca episódios e shorts do canal **Plan
 ## Estrutura do projeto
 
 ```
-planeta-vivo-landing/
+planetavivo/
 ├── public/
 │   ├── logo.png        # selo/logo oficial do Projeto Planeta Vivo
 │   └── favicon.png      # ícone da aba do navegador
