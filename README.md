@@ -1,4 +1,4 @@
-# Planeta Vivo — Landing Page
+# ♻️ Planeta Vivo — Landing Page
 
 Landing page oficial do **Projeto Planeta Vivo**, ONG sem fins lucrativos dedicada a disseminar consciência sobre o mercado de reciclagem no Brasil, com foco em capacitação, profissionalização e desenvolvimento de catadores e outros agentes da cadeia de reciclagem.
 
